@@ -21,4 +21,8 @@ export default {
     title: "MCP",
     type: "page",
   },
+  "prs-in-progress": {
+    title: "PRs in Progress",
+    type: "page",
+  },
 } satisfies MetaRecord;

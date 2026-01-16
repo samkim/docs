@@ -1,0 +1,41 @@
+# PRs in Progress
+
+This page tracks pull requests currently in development across the Authzed ecosystem repositories.
+
+## SpiceDB Repository
+
+### Update HTTP API Link
+
+**Repository:** [samkim/spicedb](https://github.com/samkim/spicedb)
+**PR:** [#5 - Update HTTP api link](https://github.com/samkim/spicedb/pull/5)
+**Status:** Open
+**Branch:** `postman-link`
+
+#### Summary
+
+This PR updates the HTTP API documentation link in the SpiceDB repository. The change is part of ongoing work to improve documentation references and ensure users have access to current API documentation resources.
+
+The PR includes a comprehensive set of changes spanning multiple areas of the codebase:
+
+- **Caching Improvements:** Enhanced cache size configurations and memory management
+- **Caveat Support:** Extensive work on implementing caveat functionality across multiple datastores (Postgres, CockroachDB, MySQL, Spanner)
+- **Type System:** Added type checking and validation for caveat parameters
+- **Schema Enhancements:** Support for defining caveats in schema with associated type checking
+- **API Updates:** Changes to dispatch message formats for LookupResources and LookupSubjects to support caveats
+- **Testing:** Comprehensive test coverage for caveat functionality
+- **Performance:** Batch checking optimizations and concurrency limits per dispatch type
+- **Infrastructure:** Migration to chainguard base images, WASM build workflow, and improved CI/CD
+- **Operations:** Improved logging, structured error handling, and observability features
+- **Datastore Features:** Enhanced support for Postgres, CockroachDB, MySQL, and Spanner with caveat support
+
+#### Key Highlights
+
+- Implements comprehensive caveat support across the entire SpiceDB stack
+- Adds schema-level caveat definitions with full type checking
+- Enhances dispatch mechanisms to handle caveat expressions
+- Improves datastore implementations with MVCC and migration support
+- Strengthens testing infrastructure with exhaustive caveat testing
+
+---
+
+*This page is maintained to provide visibility into active development work. Check back regularly for updates.*
